@@ -1,0 +1,37 @@
+import { Square } from './square';
+
+export const SQUARES: Square[] = [
+    {id:12, squareText: 'SD Card support'},
+    {id:13, squareText: 'No Region Lock'},
+    {id:14, squareText: 'USB-C'},
+    {id:15, squareText: 'Virtual Console'},
+    {id:16, squareText: 'Twitch integration'},
+    {id:17, squareText: 'Achievements'},
+    {id:18, squareText: 'Friend codes'},
+    {id:19, squareText: 'Amiibo'},
+    {id:20, squareText: '2 SKUs'},
+    {id:21, squareText: 'Netflix'},
+    {id:22, squareText: 'Price announcement'},
+    {id:23, squareText: 'Streetpass'},
+    {id:24, squareText: 'Miis'},
+    {id:25, squareText: 'Touchscreen'},
+    {id:26, squareText: 'Zelda at launch'},
+    {id:27, squareText: 'NVidia'},
+    {id:28, squareText: 'Paid online service'},
+    {id:29, squareText: 'Motion Control'},
+    {id:30, squareText: 'Pokemon'},
+    {id:31, squareText: 'Beyond Good and Evil 2'},
+    {id:32, squareText: 'Splatoon'},
+    {id:33, squareText: 'Mario Kart'},
+    {id:34, squareText: 'New IP'},
+    {id:35, squareText: 'Bethesda'},
+    {id:36, squareText: 'Smash Bros'},
+    {id:37, squareText: 'Pikmin'},
+    {id:38, squareText: 'Bayonetta'},
+    {id:39, squareText: 'Mario'},
+    {id:40, squareText: 'From Software game'},
+    {id:41, squareText: 'Pack-in game'},
+    {id:42, squareText: 'Mother 3'},
+    {id:43, squareText: 'Rabbids/Mario RPG'}
+
+]

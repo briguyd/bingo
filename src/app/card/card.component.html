@@ -1,0 +1,11 @@
+<md-grid-list cols="5" [style.background]="'white'" gutterSize="4px">
+   <md-grid-tile>B</md-grid-tile>
+   <md-grid-tile>I</md-grid-tile>
+   <md-grid-tile>N</md-grid-tile>
+   <md-grid-tile>G</md-grid-tile>
+   <md-grid-tile>O</md-grid-tile>
+   <md-grid-tile *ngFor="let square of squares | slice:0:12">{{square.squareText}}</md-grid-tile>
+   <md-grid-tile>FREE SPACE</md-grid-tile>
+   <md-grid-tile *ngFor="let square of squares | slice:12:24">{{square.squareText}}</md-grid-tile>
+   
+</md-grid-list>
